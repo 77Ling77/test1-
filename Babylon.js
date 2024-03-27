@@ -34,4 +34,6 @@ canvas.addEventListener('touchend', function (event) {
     var x = event.clientX;
     var y = event.clientY;
     sphere.position.x = x;
-    sphere.position.y = ty
+    sphere.position.y = y;
+});
+
